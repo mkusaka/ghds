@@ -1,6 +1,6 @@
 module github.com/mkusaka/ghds
 
-go 1.18
+go 1.17
 
 require (
 	github.com/google/go-github/v43 v43.0.0
