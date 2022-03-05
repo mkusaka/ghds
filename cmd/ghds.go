@@ -12,11 +12,10 @@ import (
 )
 
 var Options struct {
-	Verbose     bool   `short:"v" long:"verbose" description:"show verbose" required:"true"`
 	AccessToken string `short:"a" long:"access-token" description:"access token" required:"true"`
 	Owner       string `short:"o" long:"owner" description:"owner name" required:"true"`
 	Repo        string `short:"r" long:"repo" description:"repo name" required:"true"`
-	Ref         string `short:"ref" long:"ref" description:"ref" required:"true"`
+	Ref         string `short:"f" long:"ref" description:"ref" required:"true"`
 	Environment string `short:"e" long:"environment" description:"environment name" required:"true"`
 	Description string `short:"d" long:"description" description:"description" required:"true"`
 	TargetUrl   string `short:"t" long:"target-url" description:"target url" required:"true"`
